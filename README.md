@@ -81,8 +81,8 @@ python-dotenv>=1.0.0
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd discord-SE-bot
+git clone git@github.com:mamba73/discord-se-bot.git
+cd discord-se-bot
 ```
 
 ---
