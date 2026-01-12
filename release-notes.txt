@@ -1,0 +1,20 @@
+Title:
+Space Engineers → Discord Faction Sync Bot
+
+Description (short):
+
+Synchronizes Space Engineers player factions with Discord roles and private channels using Sandbox.sbc.
+NPC and mod factions are ignored automatically.
+
+Features:
+
+* Player factions only (TAG length = 3)
+* Safe Discord role & channel management
+* SQLite database persistence
+* Torch-compatible architecture (external bot)
+* Configurable via INI + ENV
+* No destructive actions by default
+
+Limitations:
+* SteamID cannot be resolved from Sandbox.sbc
+* Discord user linking requires manual or plugin-based solution
