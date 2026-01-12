@@ -167,6 +167,47 @@ DISCORD_DELETE_UNUSED = false
 
 ---
 
+## Configuration Flags (Booleans)
+
+### DEBUG
+
+DEBUG = true
+
+- Enables verbose logging
+- Recommended during development
+
+---
+
+### DELETE_ALL
+
+DELETE_ALL = false
+
+DANGEROUS – USE WITH CARE
+
+- When true:
+  - Deletes ONLY Discord roles and channels created by this bot
+  - Uses database records for safety
+  - Bot exits immediately after cleanup
+- Managed roles (bot roles) are never deleted
+
+Use only for full reset scenarios.
+
+---
+
+### DISCORD_DELETE_UNUSED
+
+DISCORD_DELETE_UNUSED = false
+
+- When false:
+  - No automatic deletion of Discord objects
+- When true:
+  - Allows cleanup of unused Discord roles/channels
+- Currently conservative by design
+
+---
+
+---
+
 ## ▶️ Running the Bot
 
 ```bash
