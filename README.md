@@ -206,8 +206,6 @@ DISCORD_DELETE_UNUSED = false
 
 ---
 
----
-
 ## ▶️ Running the Bot
 
 ```bash
