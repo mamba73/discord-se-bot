@@ -297,3 +297,5 @@ You can safely ignore this warning.
 ## 📜 License
 
 MIT / Private use — adapt as needed.
+
+[Buy Me a Coffee ☕](https://buymeacoffee.com/mamba73)
